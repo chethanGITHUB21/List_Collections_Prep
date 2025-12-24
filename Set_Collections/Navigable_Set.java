@@ -33,7 +33,7 @@ public class Navigable_Set {
         // Uisng pollLast() methods to retrieve and remove the last element from the set 
         // poll methods are work on view order to access and remove the first as smallest and last as bigger number if they are in acsending order and in decsending order vis-versa.
         System.out.println(navSet.pollFirst());
-        System.out.println(navSet.pollLast());        
+        System.out.println(navSet.pollLast());     
         System.out.println(navSet);
 
         System.out.println(decNav.pollFirst());
@@ -52,16 +52,6 @@ public class Navigable_Set {
         // Returns the least element in this set greater than or equal to the given element, or null if there is no such element.
         System.out.println(navSet.ceiling(6));
         
-
-
-
-
-
-
-
-
-
-
     }
     
 }

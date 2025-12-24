@@ -35,11 +35,14 @@ public class Tree_Set {
 
             }            
         });
-
-        ts.add(new StringBuffer("chethan"));
+        
+        // int this insersion order the integer have high prior then float and then string 
+        // int number will auto arrange in acsending order
+        // string character will auto arrange in alphabetical order
+        ts.add(new StringBuffer("tchethan"));
         ts.add(new StringBuffer("1"));
         ts.add(new StringBuffer("202"));
-        ts.add(new StringBuffer("developer"));
+        ts.add(new StringBuffer("5.76"));
         ts.add(new StringBuffer("innovator"));
 
         System.out.println(ts);
